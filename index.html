@@ -7,6 +7,7 @@
      <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
 
     <h1>
@@ -14,26 +15,30 @@
 
     </h1>
 
+
     <main>
 
         <form>
-            <input type="text" placeholder="Enter Topic Here"
+            <input type="text" placeholder="Enter Topic Here..."
              autofocus
              required
-             autocomplete="off"/>
-            <input type="Submit"/>
+             autocomplete="off"
+             class="instructions"
+             />
+            
+            <input type="Submit" class="submit-button"/>
+
         </form>
 
-<div>
+<div class="poem">
     The Poem will go here....
     <br/>
-
+ The morning Rush...
 </div>
 
     </main>
 
-    </header>
-
+</header>
     <footer>
         This  Ai progect was coded by christine N, and is open source on
         <a href="https://github.com/ChrissyNambz/poem-generator" target="_blank">
@@ -44,6 +49,7 @@
     </a>
 
     </footer>
+    </div>
     <script src="src/index.js">
 
     </script>
